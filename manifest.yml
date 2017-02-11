@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: saver-mapp
+  host: saver-mapp
+  disk_quota: 1024M
+  services:
+  - saver-mapp-AdvancedMobileAccess
+  - saver-mapp-imfpush
+  - saver-mapp-cloudantNoSQLDB
